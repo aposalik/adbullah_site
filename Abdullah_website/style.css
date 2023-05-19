@@ -1,0 +1,121 @@
+body{
+    background-color:rgb(50, 50, 50);
+
+}
+h1{
+    text-shadow: 20%;
+    
+}
+.abdullah_pic:hover{
+  transform: scale(1.1);
+}
+nav{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+nav a{
+    display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+nav a:hover {
+    background-color: #555;
+    color: #fff;
+  }
+.img_1{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.header{
+    text-align: center;
+}
+.div_1{
+    backface-visibility: unset;
+    background-color: black;
+    border-radius: 20px;
+    background-image:url(./695525.jpg);
+    background-size: auto;
+}
+.div_2{
+    background-color: rgb(114, 114, 114);
+    border-radius: 30px;
+   
+}
+.div_2:hover{
+  transform: scale(1.01);
+}
+.cantainar{
+    display: flex;
+}
+.scrol_img{
+    width: 500px;
+    height: 600px;
+    overflow-y: scroll;
+
+}
+.scrol_img img {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-size: cover;
+  }
+  textarea {
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(50, 50, 50);
+    width: 1200px;
+  }
+  .project_div{
+    width: 450px;
+    height: 450px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-size: 20px;
+    word-wrap: break-word;
+    margin-right: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .project_div img{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-size: cover;
+  }
+  .ul_list{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .project_pic{
+    text-align: center;
+  }
+  .project_pic:hover{
+    transform: scale(1.01);
+  }
